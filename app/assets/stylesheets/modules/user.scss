@@ -3,7 +3,7 @@
     width: 980px;
     margin: 60px auto;
     padding: 60px;
-    background-color: #fff;
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/20/12/51/imac-605421_1280.jpg);
     border: 1px solid #ddd;
     border-radius: 5px;
 
@@ -20,6 +20,7 @@
 
   .account-page__header {
     h2 {
+      color: white;
       margin-bottom: 10px;
       letter-spacing: 3px;
       font-size: 40px;
@@ -35,16 +36,23 @@
     }
 
     h5 {
+      color: white;
       margin-bottom: 20px;
       font-size: 14px;
       font-weight: 200;
     }
 
     .btn {
+      text-decoration: none;
       margin-top: 20px;
       color: #fff;
       background-color: #ccc;
       font-size: 14px;
+      
+    }
+    .btn:hover {
+      cursor: pointer;
+      transform: scale(1.1, 1.1);
     }
   }
 
@@ -80,6 +88,11 @@
     text-align: center;
     border: none;
     border-radius: 2px;
+  }
+
+  .btn:hover{
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
   }
 
   input[type='submit'] {
