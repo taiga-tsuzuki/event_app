@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+.fc-day {
+  &.fc-sun {
+    background-color: #fff2f2;
+  }
+  &.fc-sat {
+    background-color: #e2eefd;
+  }
+}
+
+.fc-right {
+  font-size: 10px;
+  .fc-button {
+    color: gray;
+  }
+}
+
+.fc-unthemed td {
+  border-color: brown;
+}
+
+.fc-header-toolbar {
+  margin: 0;
+  // @include sp {
+  //   padding: 3px 5px;
+  // };
+}
+.fc-left {
+  font-size: 10px;
+  padding-left: 10px;
+  // @include sp {
+  //   font-size: 20px;
+  //   padding-left: 5px;
+  // };
+}
+.fc-head {
+  color: blue;
+  background-color: white;
+}
+#calendar {
+  width: 100%;
+  height: auto;
+  padding-left: 15%;
+}
+
+.fc-toolbar {
+  &.fc-header-toolbar {
+    margin: 0;
+  }
+}
+
+.fc-right button {
+  outline: 0;
+  color: white;
+}
+
+.fc-day-grid-event {
+  text-align: center;
+  font-size: 16px;
+}
